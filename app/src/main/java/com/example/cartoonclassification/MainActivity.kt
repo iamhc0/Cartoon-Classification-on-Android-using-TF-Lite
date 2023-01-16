@@ -59,8 +59,24 @@ class MainActivity : AppCompatActivity() {
 
     // TODO Garbage
 
-      private val ModelName = "GarbageModel.tflite"
-      private val LabelName = "GarbageLabels.txt"
+      /*private val ModelName = "GarbageModel.tflite"
+      private val LabelName = "GarbageLabels.txt"*/
+
+    // TODO Flowers MY
+
+   /* private val ModelName = "FlowerModelMy.tflite"
+    private val LabelName = "FlowersLabels.txt"*/
+
+
+    // TODO Flowers My Without Over Fit
+
+    /*private val ModelName = "FlowerModelMyWithoutOverFit.tflite"
+    private val LabelName = "FlowersLabels.txt"*/
+
+    // TODO Flowers My Meta Data Without Over Fit
+
+    private val ModelName = "FlowerModelMyMTWithoutOverFit.tflite"
+    private val LabelName = "FlowersLabels.txt"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
