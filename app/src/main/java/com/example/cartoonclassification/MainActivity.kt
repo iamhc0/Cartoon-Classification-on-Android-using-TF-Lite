@@ -49,34 +49,48 @@ class MainActivity : AppCompatActivity() {
 
     // TODO Insect
 
-       /* private val ModelName = "Insect.tflite"
-        private val LabelName = "InsectLabels.txt"*/
+    /* private val ModelName = "Insect.tflite"
+     private val LabelName = "InsectLabels.txt"*/
 
     // TODO Cartoon
 
-   /* private val ModelName = "cartoon_model.tflite"
-    private val LabelName = "cartoon_labels.txt"*/
+    /* private val ModelName = "cartoon_model.tflite"
+     private val LabelName = "cartoon_labels.txt"*/
 
     // TODO Garbage
 
-      /*private val ModelName = "GarbageModel.tflite"
-      private val LabelName = "GarbageLabels.txt"*/
+    /*private val ModelName = "GarbageModel.tflite"
+    private val LabelName = "GarbageLabels.txt"*/
+
+    // TODO Flowers
+    private val LabelName = "FlowersLabels.txt"
+
+
+    private val ModelName = "FlowerModelMT.tflite"
 
     // TODO Flowers MY
 
-   /* private val ModelName = "FlowerModelMy.tflite"
-    private val LabelName = "FlowersLabels.txt"*/
-
+    //private val ModelName = "FlowerModelMy.tflite"
 
     // TODO Flowers My Without Over Fit
 
-    /*private val ModelName = "FlowerModelMyWithoutOverFit.tflite"
-    private val LabelName = "FlowersLabels.txt"*/
+    //  private val ModelName = "FlowerModelMyWithoutOverFit.tflite"
+
 
     // TODO Flowers My Meta Data Without Over Fit
 
-    private val ModelName = "FlowerModelMyMTWithoutOverFit.tflite"
-    private val LabelName = "FlowersLabels.txt"
+    //private val ModelName = "FlowerModelMyMTWithoutOverFit.tflite"
+
+
+    // TODO Flowers Model My  Meta Data LiteMaker
+
+    //private val ModelName = "FlowerModelMyMTLiteMaker.tflite"
+
+
+    // TODO Flowers Model My  Meta Data LiteMaker FP16
+
+    //private val ModelName = "FlowerModelMyMTLiteMakerFP16.tflite"
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
