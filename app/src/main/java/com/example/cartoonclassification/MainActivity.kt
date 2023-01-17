@@ -52,44 +52,72 @@ class MainActivity : AppCompatActivity() {
     /* private val ModelName = "Insect.tflite"
      private val LabelName = "InsectLabels.txt"*/
 
+
     // TODO Cartoon
 
     /* private val ModelName = "cartoon_model.tflite"
      private val LabelName = "cartoon_labels.txt"*/
 
+
     // TODO Garbage
 
-    /*private val ModelName = "GarbageModel.tflite"
-    private val LabelName = "GarbageLabels.txt"*/
+    // Garbage Model My
+
+    //private val LabelName = "GarbageLabels.txt"
+
+    // val ModelName = "GarbageModelMy.tflite"
+
+
+    //  Garbage Model My  Meta Data LiteMaker
+
+    //private val ModelName = "GarbageModelMyLiteMaker.tflite"
+
+
+    // TODO DOG
+    private val LabelName = "DogLabels.txt"
+
+    //  Dog Model My MetaData LiteMaker
+
+    private val ModelName = "DogModelMyMTLiteMaker.tflite"
+
+    //  Dog Model My Without Detail Process MetaData LiteMaker
+
+    //private val ModelName = "DogModelMyWithoutDetailProcessMTLiteMaker.tflite"
+
+    //  Dog Model My MetaData LiteMaker Quantization FP16
+
+    //private val ModelName = "DogModelMyMTLiteMakerQuantization.tflite"
+
+
 
     // TODO Flowers
-    private val LabelName = "FlowersLabels.txt"
 
+    // private val LabelName = "FlowersLabels.txt"
 
-    private val ModelName = "FlowerModelMT.tflite"
+    // private val ModelName = "FlowerModelMT.tflite"
 
-    // TODO Flowers MY
+    //  Flowers MY
 
     //private val ModelName = "FlowerModelMy.tflite"
 
-    // TODO Flowers My Without Over Fit
+    //  Flowers My Without Over Fit
 
     //  private val ModelName = "FlowerModelMyWithoutOverFit.tflite"
 
 
-    // TODO Flowers My Meta Data Without Over Fit
+    //  Flowers My Meta Data Without Over Fit
 
     //private val ModelName = "FlowerModelMyMTWithoutOverFit.tflite"
 
 
-    // TODO Flowers Model My  Meta Data LiteMaker
+    //  Flowers Model My  Meta Data LiteMaker
 
     //private val ModelName = "FlowerModelMyMTLiteMaker.tflite"
 
 
-    // TODO Flowers Model My  Meta Data LiteMaker FP16
+    //  Flowers Model My  Meta Data LiteMaker Quantization FP16
 
-    //private val ModelName = "FlowerModelMyMTLiteMakerFP16.tflite"
+    //private val ModelName = "FlowerModelMyMTLiteMakerQuantization..tflite"
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
